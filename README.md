@@ -6,12 +6,12 @@ A list of 8086 assembly projects and their answers for **Microprocessors course*
   * [Project #1: Car waiting meter](#project-1-car-waiting-meter)
   * [Project #2: Packet transmission control](#project-2-packet-transmission-control)
   * [Project#3: Security Lock](#project-3-security-lock)
-  * [Project#4: Monoalphabetic Substitution Encryption:](#project-4-monoalphabetic-substitution-encryption-)
-  * [Project#5: Marathon results:](#project-5-marathon-results-)
+  * [Project#4: Monoalphabetic Substitution Encryption:](#project-4-monoalphabetic-substitution-encryption)
+  * [Project#5: Marathon results:](#project-5-marathon-results)
   * [Project#6: Traffic light control](#project-6-traffic-light-control)
   * [Project#7: Heater Alarm](#project-7-heater-alarm)
   * [Project#8: ATM Machine](#project-8-atm-machine)
-  * [Project#9: Mononumeric substitution encryption:](#project-9-mononumeric-substitution-encryption-)
+  * [Project#9: Mononumeric substitution encryption:](#project-9-mononumeric-substitution-encryption)
   * [Contributors](#contributors)
 
 ## Project #0: Classroom grading
