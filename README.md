@@ -14,7 +14,7 @@ A list of 8086 assembly projects and their answers for **Microprocessors course*
   * [Project#9: Mononumeric substitution encryption:](#project-9--mononumeric-substitution-encryption-)
   * [Contributors](#contributors)
 
-## Project#0: Classroom grading
+## Project #0: Classroom grading
 A classroom has 25 students. It is required to rearrange them in descending order according
 to their grades in the microprocessor course.
 
