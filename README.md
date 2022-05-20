@@ -1,5 +1,5 @@
 # 8086-Assembly-Projects
-A list of 8086 assembly projects and their answers for **Microprocessors course** (CC421N) at Faculty of Engineering, Alexandria University.
+A list of 8086 assembly projects solutions for **Microprocessors course** (CC421N) at Faculty of Engineering, Alexandria University.
 ## Table of Content
 - [8086-Assembly-Projects](#8086-assembly-projects)
   * [Project#0: Classroom grading](#project-0-classroom-grading)
