@@ -3,7 +3,7 @@ A list of 8086 assembly projects and their answers for **Microprocessors course*
 ## Table of Content
 - [8086-Assembly-Projects](#8086-assembly-projects)
   * [Project#0: Classroom grading](#project-0-classroom-grading)
-  * [Project #1: Car waiting meter](#project--1--car-waiting-meter)
+  * [Project #1: Car waiting meter](#project-1-car-waiting-meter)
   * [Project #2: Packet transmission control](#project--2--packet-transmission-control)
   * [Project#3: Security Lock](#project-3--security-lock)
   * [Project#4: Monoalphabetic Substitution Encryption:](#project-4--monoalphabetic-substitution-encryption-)
