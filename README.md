@@ -1,6 +1,19 @@
 # 8086-Assembly-Projects
 A list of 8086 assembly projects and their answers for **Microprocessors course** (CC421N) at Faculty of Engineering, Alexandria University.
 ## Table of Content
+- [8086-Assembly-Projects](#8086-assembly-projects)
+  * [Project#0: Classroom grading](#project-0--classroom-grading)
+  * [Project #1: Car waiting meter](#project--1--car-waiting-meter)
+  * [Project #2: Packet transmission control](#project--2--packet-transmission-control)
+  * [Project#3: Security Lock](#project-3--security-lock)
+  * [Project#4: Monoalphabetic Substitution Encryption:](#project-4--monoalphabetic-substitution-encryption-)
+  * [Project#5: Marathon results:](#project-5--marathon-results-)
+  * [Project#6: Traffic light control](#project-6--traffic-light-control)
+  * [Project#7: Heater Alarm](#project-7--heater-alarm)
+  * [Project#8: ATM Machine](#project-8--atm-machine)
+  * [Project#9: Mononumeric substitution encryption:](#project-9--mononumeric-substitution-encryption-)
+  * [Contributors](#contributors)
+
 ## Project#0: Classroom grading
 A classroom has 25 students. It is required to rearrange them in descending order according
 to their grades in the microprocessor course.
@@ -125,5 +138,5 @@ stored table, then decrypt the cipher text to obtain the original text message.
 
 Omit any space between words in your message.
 
-## Contributers
+## Contributors
 
