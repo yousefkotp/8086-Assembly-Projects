@@ -98,7 +98,7 @@ SKIP:   	CMP  SI, CX
 	    	LEA SI,MSG4
 	    	CALL PRINT_STRING
         	PRINT 0AH            ;PRINT NEW LINE 
-        	PRINT 0DH            ;RETURN CURSORT TO THE BEGGINING
+        	PRINT 0DH            ;RETURN CURSORT TO THE BEGINNING
 	   
 	    	MOV SI, 0
 LOOP3:  	MOV AX,0
