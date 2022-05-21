@@ -39,23 +39,29 @@ This assembly program was run and tested on the x86 emulator [emu8086](https://e
 **The program lets the user choose whether to enter a string or use the hard-coded one**
 
 This is the harcoded string:
-![string](..%5C..%5Charcoded-string.jpg)
+![harcoded-string](https://user-images.githubusercontent.com/90573502/169605022-c2afbaba-cc8a-4a95-9a01-2f73ba2f491a.jpg)
+
 
 **Main Menu**
-![main menu](..%5C..%5Cmainmenu.jpg)
+![mainmenu](https://user-images.githubusercontent.com/90573502/169605037-9e5f0e06-e05c-4159-93fe-a56eb1b86fca.jpg)
+
 
 **Entered '2' to use the hard-coded string**
-![used](..%5C..%5Cused-hardcoded.jpg)
+![used-hardcoded](https://user-images.githubusercontent.com/90573502/169605063-d87085b4-c512-4dbb-aff2-af0a08ee338b.jpg)
+
 
 **And done!**
-![done-hardcoded](..%5C..%5Cdone-hardcoded.jpg)
+![done-hardcoded](https://user-images.githubusercontent.com/90573502/169605079-7d2059ff-8184-49fe-819d-c3fb442dfd00.jpg)
+
 
 **Entered 'y' to try again and '1' to input string**
-![entering_input](..%5C..%5Centering-input.jpg)
+![entering-input](https://user-images.githubusercontent.com/90573502/169605105-d9c69581-2fa4-4120-83b9-036d9e25edc9.jpg)
+
 
 **Processing the given string**
-![used-input](..%5C..%5Cused-input.jpg)
+![used-input](https://user-images.githubusercontent.com/90573502/169605121-7b83a252-f8fb-46ec-bc4c-93f0e57608aa.jpg)
+
 
 **And done!**
-![done](..%5C..%5Cdone.jpg)
+![done](https://user-images.githubusercontent.com/90573502/169605129-8e9ad35b-9311-4823-bac2-cab9e9f3a6bf.jpg)
 
