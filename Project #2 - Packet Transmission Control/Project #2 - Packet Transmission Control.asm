@@ -41,15 +41,12 @@ LOOP2: INC N2               ;INCREASING NUMBER OF TRANSMISSOIN MADE
        DEC PACKET 
        JMP DONE 
        
-ELSE:  MOV CX,N
-       SHL N,1
-       SUB N,CX             ;EL VALUE EL GDEDA - EL ADEMA
-       MOV CX,N 
+ELSE:  MOV CX,N 
        CMP CX,PACKET        ;CHECK IF NUMBER OF LEFT TO BE TRANSMITTED IS SMALLER THAN TRANSFERRED PACKETS AT THAT TIME
        JA  BREAK
-       JE  BREAK
+       JE  BREAK  
+       SHL N,1   
        SUB PACKET,CX
-       ADD N,CX             ; RESTORE THE OLD VALUE OF N
        
        
 
