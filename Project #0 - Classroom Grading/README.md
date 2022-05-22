@@ -1,4 +1,4 @@
-# Classroom-Grading-emu-8086
+# Classroom Grading EMU 8086
 ## Table of Content
 - [Classroom-Grading-emu-8086](#classroom-grading-emu-8086)
   * [Abstract](#abstract)
