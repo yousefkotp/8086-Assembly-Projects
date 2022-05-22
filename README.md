@@ -66,6 +66,7 @@ The output is one bit (0/1) that means (denied/allowed).
 ## Project #4: Monoalphabetic Substitution Encryption:
 In the monoalphabetic substitution encryption, each alphabetic letter is substituted by another
 letter according to the following table:
+
 Plain Text
 
 a b c d e f g h i j k l m n o p q r s t u v w x y z
