@@ -12,7 +12,7 @@ A list of 8086 assembly projects solutions for **Microprocessors course** (CC421
   * [Project#7: Heater Alarm](#project-7-heater-alarm)
   * [Project#8: ATM Machine](#project-8-atm-machine)
   * [Project#9: Mononumeric substitution encryption:](#project-9-mononumeric-substitution-encryption)
-  * [Remarks](#remarks
+  * [Remarks](#remarks)
   * [Contributors](#contributors)
 
 ## Project #0: Classroom grading
