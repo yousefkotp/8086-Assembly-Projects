@@ -143,6 +143,6 @@ Omit any space between words in your message.
 This assembly program was run and tested on the x86 emulator [emu8086](https://emu8086.en.lo4d.com/windows#:~:text=Tutorial....-,Emu8086%20is%20a%20Microprocessor%20Emulator%20with%20an%20integrated%208086%20Assembler,memory%20and%20input%2Foutput%20devices.).
 
 ## Contributors
-[Yousef Kotp](https://github.com/yousefkotp)
+* [Yousef Kotp](https://github.com/yousefkotp)
 
-[Adham Mohamed](https://github.com/adhammohamed1)
+* [Adham Mohamed](https://github.com/adhammohamed1)
