@@ -7,7 +7,7 @@ DATA SEGMENT
 	MARKS DB 1000 DUP (?)           ;1000 IS THE MAXIMYM NUMBER OF STUDENTS
 	ID    DB  1000 DUP (?)
 	         
-	MSG1    DB 'Enter the number of students(DONT EXCEED 1000): ',0                                   ;0 INDICATES THAT THE MESSAGE ENDS HERE
+	MSG1    DB 'Enter the number of students(DOES NOT EXCEED 1000): ',0                                   ;0 INDICATES THAT THE MESSAGE ENDS HERE
 	MSG2    DB 0Dh,0Ah, 0Dh,0Ah,'Enter the IDs of students: ',0                                       ;0Dh,0Ah, 0Dh,0Ah MEANS NEW LINE AND RETURN CURSOR TO ITS BEGINNING ACCORDING TO ASCI CODES 
 	MSG3    DB 0Dh,0Ah, 0Dh,0Ah,'Enter the marks of students: ',0    
     	HR      DB 0Dh,0Ah, 0Dh,0Ah,'*******************Sorted Marks***********************',0            ;HORIZONTAL ROW  
