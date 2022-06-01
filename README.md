@@ -153,3 +153,5 @@ These assembly programs were run and tested on the x86 emulator [emu8086](https:
 * [Ahmed Hany](https://github.com/ahmedhany2001) (Project 8)
 
 * [Abdelrahman ElAttar](https://github.com/abdelrahmanelattarr/) (Project 1)
+
+* [Ahmad Hazem](https://github.com/AhmadHazem) (Project 3)
