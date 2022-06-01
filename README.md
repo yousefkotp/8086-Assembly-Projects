@@ -1,21 +1,25 @@
 # 8086-Assembly-Projects
 A list of 8086 assembly projects solutions for **Microprocessors course** (CC421N) at Faculty of Engineering, Alexandria University.
 ## Table of Content
-- [8086-Assembly-Projects](#8086-assembly-projects)
-  * [Project #0: Classroom grading](#project-0-classroom-grading)
-  * [Project #1: Car waiting meter](#project-1-car-waiting-meter)
-  * [Project #2: Packet transmission control](#project-2-packet-transmission-control)
-  * [Project #3: Security Lock](#project-3-security-lock)
-  * [Project #4: Monoalphabetic Substitution Encryption:](#project-4-monoalphabetic-substitution-encryption)
-  * [Project #5: Marathon results:](#project-5-marathon-results)
-  * [Project #6: Traffic light control](#project-6-traffic-light-control)
-  * [Project #7: Heater Alarm](#project-7-heater-alarm)
-  * [Project #8: ATM Machine](#project-8-atm-machine)
-  * [Project #9: Mononumeric substitution encryption:](#project-9-mononumeric-substitution-encryption)
-  * [Remarks](#remarks)
-  * [Contributors](#contributors)
+- [Project List](#project-list)
+  + [Project #0: Classroom grading](#project-0-classroom-grading)
+  + [Project #1: Car waiting meter](#project-1-car-waiting-meter)
+  + [Project #2: Packet transmission control](#project-2-packet-transmission-control)
+  + [Project #3: Security Lock](#project-3-security-lock)
+  + [Project #4: Monoalphabetic Substitution Encryption:](#project-4-monoalphabetic-substitution-encryption)
+  + [Project #5: Marathon results:](#project-5-marathon-results)
+  + [Project #6: Traffic light control](#project-6-traffic-light-control)
+  + [Project #7: Heater Alarm](#project-7-heater-alarm)
+  + [Project #8: ATM Machine](#project-8-atm-machine)
+  + [Project #9: Mononumeric substitution encryption:](#project-9-mononumeric-substitution-encryption)
+- [Remarks](#remarks)
+- [Contribute With your Code!](#contribute-with-your-code)
+- [Contributors](#contributors)
 
-## Project #0: Classroom grading
+
+## Project List
+
+### Project #0: Classroom grading
 A classroom has 25 students. It is required to rearrange them in descending order according
 to their grades in the microprocessor course.
 
@@ -25,7 +29,7 @@ contains their grades.
 The outputs are two tables. The first one contains the student number arranged according to
 their grades and the second table shows these grades.
 
-## Project #1: Car waiting meter
+### Project #1: Car waiting meter
 In the car parking, a car waiting meter is used. The driver puts a certain amount of money and
 this meter will allow him to park his car for a specific time.
 
@@ -38,7 +42,7 @@ If the time is expired, a red led will turn on.
 The input is the amount of money.
 
 The output is LED turned red if time is expired.
-## Project #2: Packet transmission control
+### Project #2: Packet transmission control
 Consider the maximum capacity of a network is 128 packets. The user starts his packets
 transmission by 1 packet. Then he/she increases the number of packets according to the
 following rules:
@@ -53,7 +57,7 @@ packets and repeat the previous rules.
 The input is the size of the transmitted file.
 
 The output is the number of Transmissions used to transmit this file.
-## Project #3: Security Lock
+### Project #3: Security Lock
 In the bank, a security lock is used to access some rooms. This lock accepts two inputs: the
 employee identification number (16 bits) and his/her password (4 bits). If the bank has 20
 employees, construct their database and store it in the memory. Then write a program to
@@ -63,7 +67,7 @@ The inputs of the program are the employee identification and the password.
 
 The output is one bit (0/1) that means (denied/allowed).
 
-## Project #4: Monoalphabetic Substitution Encryption:
+### Project #4: Monoalphabetic Substitution Encryption:
 In the monoalphabetic substitution encryption, each alphabetic letter is substituted by another
 letter according to the following table:
 
@@ -82,7 +86,7 @@ the stored table, then decrypt the cipher text to obtain the original text messa
 
 Omit any space between words in your message.
 
-## Project #5: Marathon results:
+### Project #5: Marathon results:
 25 players are participated in a marathon. Their numbers and time in which they completed
 the marathon are stored in the memory. It is required to rearrange them in ascending order to
 find the winner.
@@ -93,10 +97,10 @@ contains their recorded time.
 The outputs are two tables. The first one contains the player number arranged according to
 their times and the second table shows these times.
 
-## Project #6: Traffic light control
+### Project #6: Traffic light control
 Write a program to control the time of the traffic lights. The red and green signals should be
 on for 3 minutes. The yellow signal should be on for 1 minute. 
-## Project #7: Heater Alarm
+### Project #7: Heater Alarm
 Consider a boiler in a petrochemical factory. Its temperature is measured every 3 minutes.
 If the temperature <= 200ºC, a green led will turn on.
 
@@ -105,7 +109,7 @@ If the 200 < temperature < 500ºC, a yellow led will turn on.
 If the temperature >= 500ºC, a red led will turn on.
 
 Write a program that reads the temperature every 3 minutes and shows the LED condition.
-## Project #8: ATM Machine
+### Project #8: ATM Machine
 In ATM machine, an electronic lock circuit is used to authorize the card. This circuit has two
 input codes: The card number that consists of 16 bits and the password that consists of 4 bits.
 If the bank has 20 customers only uses the cards. 
@@ -114,7 +118,7 @@ Construct their database and store it in the memory. Then write a program for ca
 The inputs of the program are the card number and the password.
 
 The output is one bit (0/1) that means (denied/allowed).
-## Project #9: Mononumeric substitution encryption:
+### Project #9: Mononumeric substitution encryption:
 In the monoalphabetic substitution encryption, each alphabetic letter is substituted by another
 letter according to the following table:
 
@@ -141,7 +145,17 @@ stored table, then decrypt the cipher text to obtain the original text message.
 Omit any space between words in your message.
 
 ## Remarks
-These assembly programs were run and tested on the x86 emulator [emu8086](https://emu8086.en.lo4d.com/windows#:~:text=Tutorial....-,Emu8086%20is%20a%20Microprocessor%20Emulator%20with%20an%20integrated%208086%20Assembler,memory%20and%20input%2Foutput%20devices.).
+1. These assembly programs were run and tested on the x86 emulator [emu8086](https://emu8086.en.lo4d.com/windows#:~:text=Tutorial....-,Emu8086%20is%20a%20Microprocessor%20Emulator%20with%20an%20integrated%208086%20Assembler,memory%20and%20input%2Foutput%20devices.).
+2. You can find a README file for every project describing it in further detail
+3. Make sure to checkout the amazing contributors down in the contributors section :)
+
+
+## Contribute with your code!
+***Please make sure to do the following upon submitting a PR:***
+   - Follow the same file naming format. **ie:** _Project #(Number) - (Project Name)_
+   - Add a README with at least an explanation of the implemented concept. ( _the more info you add the more helpful it is :)_ )
+   - If the project already exists in the repo specify that this is another implementation in the file  name. **ie:** _Project #(number) [Another Implementation]_ - (Project Name)
+   - Most importantly, make sure to have tested the code thoroughly before submitting the PR.
 
 ## Contributors
 * [Yousef Kotp](https://github.com/yousefkotp) (Project 0,2,5)
