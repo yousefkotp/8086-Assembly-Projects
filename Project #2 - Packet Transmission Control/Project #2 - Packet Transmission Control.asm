@@ -30,35 +30,35 @@ START:
 	   MOV PACKET,CX
 	   
 
-LOOP2: INC N2               ;INCREASING NUMBER OF TRANSMISSOIN MADE
+LOOP1: INC N2               ;INCREASING NUMBER OF TRANSMISSOIN MADE
        INC N                ;INCREASING NUMBER OF PACKETS TRANSMITTED
        DEC PACKET           ;DECREASING NUMBER OF PACKETS TO BE TRANSMITTED
-       
-       CMP N,64
-       JB  ELSE             ;IF NUMBER OF PACKETS TRANSMITTED IS LESS THAN 64     
-       
-       INC N
-       DEC PACKET 
-       JMP DONE 
-       
-ELSE:  MOV CX,N 
+       JMP DONE
+
+LOOP2: CMP N,64
+       JB  FUNC1             ;IF NUMBER OF PACKETS TRANSMITTED IS LESS THAN 64     
+
+loop_start:
+       cmp N,128            ; compare loop counter with 10
+       JGE loop_end         ; jump out of loop if counter >= 10
+       JMP LOOP1
+       JMP loop_start       ; jump back to the start of the loop
+loop_end:
+       MOV N,0
+       JMP LOOP1            
+
+FUNC1: MOV CX,N 
        CMP CX,PACKET        ;CHECK IF NUMBER OF LEFT TO BE TRANSMITTED IS SMALLER THAN TRANSFERRED PACKETS AT THAT TIME
-       JA  BREAK
-       JE  BREAK  
+       JAE  BREAK  
        SHL N,1   
        SUB PACKET,CX
-       
-       
-
-
+       INC N2
 
 DONE:  CMP  PACKET,0
-       JB   BREAK
-       JE   BREAK
-       CMP  N,128
-       JNE  END
-       MOV  N,0
-END:   JMP  LOOP2  
+       JBE  BREAK
+       CMP  N,64
+       JB   FUNC1             ;IF NUMBER OF PACKETS TRANSMITTED IS LESS THAN 64
+       JMP  loop_start
 
 BREAK:
        PRINT 0AH
